@@ -1,0 +1,83 @@
+h1 {
+  color: #835242;
+  font-weight: bolder;
+  font-family: fantasy;
+  font-size: 48px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+h2 {
+  color: #835242;
+  font-size: 28px;
+  font-weight: bolder;
+}
+h3 {
+  color: #835242;
+  font-family: fantasy;
+}
+body {
+  color: #5d3a27;
+  line-height: 30px;
+  background: linear-gradient(
+    to right,
+    #cabab5 0%,
+    #efe4e1 10% 90%,
+    #cabab5 100%
+  );
+  font-family: sans-serif;
+  font-size: 22px;
+  margin: 50px 200px;
+  text-align: center;
+}
+ol {
+  color: #5d3a27;
+  font-family: sans-serif;
+  text-align: left;
+}
+li {
+  padding: 10px;
+}
+img {
+  display: block;
+  margin: 30px auto;
+}
+button {
+  background: #563429;
+  border: 1px solid #835242;
+  border-radius: 30px 30px 30px 30px;
+  color: white;
+  display: block;
+  font-size: 16px;
+  margin: 20px auto;
+  padding: 15px 20px;
+  box-shadow: 2px 4px 4px #8d766f;
+  transition: all 300ms ease-in-out;
+}
+button:hover {
+  background: #efe4e1;
+  color: #563429;
+  cursor: pointer;
+}
+a {
+  color: #291913;
+  font-size: 18px;
+  text-decoration: none;
+}
+.coffee-home-photo {
+  max-width: 50%;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.contact {
+  text-align: center;
+  font-size: 18px;
+}
+.how-contact {
+  font-weight: bolder;
+}
+.contactInfo {
+  font-size: 20px;
+}
